@@ -1,10 +1,11 @@
 #!/bin/bash
+set -e -u
 
 #
 # setup maven wrapper
 #
 
-cd ${BASH_SOURCE%/*}/
+cd "${BASH_SOURCE%/*}/.."
 
 # for this project
 

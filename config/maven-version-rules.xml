@@ -1,0 +1,32 @@
+
+<ruleset>
+
+    <!-- http://www.mojohaus.org/versions-maven-plugin/rule.html -->
+
+    <ignoreVersions>
+
+        <!-- milestone -->
+        <ignoreVersion type="regex">.+[-_.](M)[-_.]?[0-9]?.*</ignoreVersion>
+
+        <!-- java version -->
+        <ignoreVersion type="regex">.+[-_.](jre)[-_.]?[0-9]?.*</ignoreVersion>
+
+        <!-- release candidate -->
+        <ignoreVersion type="regex">.+[-_.](rc|RC)[-_.]?[0-9]?.*</ignoreVersion>
+
+        <!-- snapshot artifact -->
+        <ignoreVersion type="regex">.+[-_.](snap|Snap|SNAP)[-_.]?[0-9]?.*</ignoreVersion>
+
+        <!-- beta artifact -->
+        <ignoreVersion type="regex">.+[-_.](beta|Beta|BETA)[-_.]?[0-9]?.*</ignoreVersion>
+
+        <!-- alpha artifact -->
+        <ignoreVersion type="regex">.+[-_.](alpha|Alpha|ALPHA)[-_.]?[0-9]?.*</ignoreVersion>
+
+        <!-- scala specs2 -->
+        <ignoreVersion>4.0.1-2c0d6d9-20171014100524</ignoreVersion>
+        <ignoreVersion>4.0.1-2c0d6d9-20171014100525</ignoreVersion>
+
+    </ignoreVersions>
+
+</ruleset>
