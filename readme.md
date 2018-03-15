@@ -1,5 +1,5 @@
 
-### Remote maven project parent
+### Global remote Maven project parent
 
 [![Travis Status](https://travis-ci.org/random-maven/arkon.svg?branch=master)](https://travis-ci.org/random-maven/arkon/builds)
 
