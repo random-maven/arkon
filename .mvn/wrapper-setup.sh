@@ -9,7 +9,7 @@ cd "${BASH_SOURCE%/*}/.."
 
 # for this project
 
-mvn -N io.takari:maven:wrapper
+mvn -N io.takari:maven:wrapper -D maven=3.5.3
 
 # for arkon maven extension
 
