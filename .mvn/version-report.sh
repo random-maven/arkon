@@ -16,3 +16,4 @@ cd "${BASH_SOURCE%/*}/.."
     -D verbose=false \
     -D generateBackupPoms=false \
     -D allowSnapshots=false \
+

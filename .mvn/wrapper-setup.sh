@@ -5,11 +5,14 @@ set -e -u
 # setup maven wrapper
 #
 
+# m2e v 1.11
+version=3.5.3
+
 cd "${BASH_SOURCE%/*}/.."
 
 # for this project
 
-mvn -N io.takari:maven:wrapper -D maven=3.5.3
+mvn -N io.takari:maven:wrapper -D maven=$version
 
 # for arkon maven extension
 
